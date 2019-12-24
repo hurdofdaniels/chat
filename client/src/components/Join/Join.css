@@ -1,0 +1,138 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.joinOuterContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+  background-color: #1A1A1D;
+}
+
+.joinInnerContainer {
+  width: 20%;
+}
+
+.joinInput {
+  border-radius: 0;
+  padding: 15px 20px;
+  width: 100%;
+}
+
+.heading {
+  font-size: 2.5em;
+  padding-bottom: 10px;
+  border-bottom: 2px solid;
+  -webkit-animation: color-change 5s infinite;
+  -moz-animation: color-change 5s infinite;
+  -o-animation: color-change 5s infinite;
+  -ms-animation: color-change 5s infinite;
+  animation: color-change 5s infinite;
+}
+
+.button {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #2979FF;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    width: 100%;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+h1, .heading {
+  -webkit-animation: color-change 5s infinite;
+  -moz-animation: color-change 5s infinite;
+  -o-animation: color-change 5s infinite;
+  -ms-animation: color-change 5s infinite;
+  animation: color-change 5s infinite;
+}
+
+@-webkit-keyframes color-change {
+  0% { color: red; }
+  12.5% { color: orange; }
+  25% { color: yellow; }
+  37.5% { color: green; }
+  50% { color: blue; }
+  62.5% { color: indigo; }
+  75% {color: violet; }
+  87.5% { color: red; }
+}
+@-moz-keyframes color-change {
+  0% { color: red; }
+  12.5% { color: orange; }
+  25% { color: yellow; }
+  37.5% { color: green; }
+  50% { color: blue; }
+  62.5% { color: indigo; }
+  75% {color: violet; }
+  87.5% { color:  #C71585; }
+  100% { color: red; }
+}
+@-ms-keyframes color-change {
+  0% { color: red; }
+  12.5% { color: orange; }
+  25% { color: yellow; }
+  37.5% { color: green; }
+  50% { color: blue; }
+  62.5% { color: indigo; }
+  75% {color: violet; }
+  87.5% { color:  #C71585; }
+  100% { color: red; }
+}
+@-o-keyframes color-change {
+  0% { color: red; }
+  12.5% { color: orange; }
+  25% { color: yellow; }
+  37.5% { color: green; }
+  50% { color: blue; }
+  62.5% { color: indigo; }
+  75% {color: violet; }
+  87.5% { color:  #C71585; }
+  100% { color: red; }
+}
+@keyframes color-change {
+  0% { color: red; }
+  12.5% { color: orange; }
+  25% { color: yellow; }
+  37.5% { color: green; }
+  50% { color: blue; }
+  62.5% { color: indigo; }
+  75% {color: violet; }
+  87.5% { color:  #C71585; }
+  100% { color: red; }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .joinOuterContainer {
+    height: 100%;
+  }
+
+  .joinInnerContainer {
+    width: 90%;
+  }
+
+
+}
+
+button:focus {
+  outline: 0;
+}
